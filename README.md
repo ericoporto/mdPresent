@@ -1,5 +1,7 @@
 # mdPresent
 
+[![Build Status](https://travis-ci.org/ericoporto/mdPresent.svg?branch=master)](https://travis-ci.org/ericoporto/mdPresent)
+
 Markdown presentation from README.md using pandoc on the cloud. 
 
 1. Fork this repo.
