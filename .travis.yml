@@ -7,7 +7,7 @@ install:
   - mv reveal* reveal.js
 
 script:
-  - pandoc -t revealjs -s Readme.md -o index.html
+  - pandoc -t revealjs -s README.md -o index.html
   - touch .nojekyll
 
 deploy:
