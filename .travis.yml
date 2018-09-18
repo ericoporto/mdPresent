@@ -2,7 +2,7 @@ language: r
 pandoc_version: 2.2
 sudo: false
 install:
-  - pip install -U pip pandocfilters
+  - pip install --user pandocfilters
   - wget -qO- https://github.com/hakimel/reveal.js/archive/3.7.0.tar.gz | tar xvz -C reveal.js
 
 script:
